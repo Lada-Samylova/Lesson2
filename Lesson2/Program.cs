@@ -18,7 +18,7 @@ namespace GuessNumber
                 if (!int.TryParse(temp, out int Num)) //Для случаев, если буду введены не корректные значения
                 {
                     j++;
-                    continue; //Предложение ввести корректное значение снова, начиная с начала, не уходя в конец 
+                    continue; 
                 }
                 if (Num == i) 
                 {
